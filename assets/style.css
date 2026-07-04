@@ -1,0 +1,76 @@
+/* Main Background */
+.stApp {
+    background-color: #0f172a;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+    color:white;
+}
+
+/* Text */
+p,label{
+    color:#d1d5db;
+}
+
+/* Metric Cards */
+div[data-testid="metric-container"]{
+    background:#1e293b;
+    border-radius:15px;
+    padding:15px;
+    border:1px solid #334155;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.4);
+}
+
+/* Buttons */
+.stButton>button{
+    border-radius:12px;
+}
+
+
+
+/* ---------------- KPI Cards ---------------- */
+
+.kpi-card{
+    background: linear-gradient(135deg,#1e293b,#0f172a);
+    border-radius:20px;
+    padding:20px;
+    border:1px solid #334155;
+    transition:all .30s ease;
+    box-shadow:0 8px 18px rgba(0,0,0,.35);
+}
+
+.kpi-card:hover{
+    transform:translateY(-8px) scale(1.02);
+    border:1px solid #3b82f6;
+    box-shadow:0 15px 35px rgba(59,130,246,.35);
+}
+
+.kpi-icon{
+    font-size:38px;
+}
+
+.kpi-title{
+    color:#94a3b8;
+    font-size:16px;
+    margin-top:10px;
+}
+
+.kpi-value{
+    color:white;
+    font-size:34px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.kpi-footer{
+    color:#22c55e;
+    margin-top:12px;
+    font-size:14px;
+    font-weight:600;
+}
